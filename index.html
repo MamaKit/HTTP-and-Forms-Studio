@@ -2,6 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
 	<script>
 		// TODO: create a handler
 		
@@ -29,11 +30,11 @@
 <body>
 
 	<form id="searchForm">
-		<label>Search For:<input type="text" name="q"/></label>
-		<label>Google<input type="radio" name="engine" value="google" required/></label>
-		<label>DuckDuckGo<input type="radio" name="engine" value="duckDuckGo"/></label>
-		<label>Bing<input type="radio" name="engine" value="bing"/></label>
-		<label>Ask<input type="radio" name="engine" value="ask"/></label>
+		<label id="shite">Search For: <input type="text" name="q" required/></label><br>
+		<label id="googleplex">Google<input type="radio" name="engine" value="google" required/></label>
+		<label id="duck">DuckDuckGo<input type="radio" name="engine" value="duckDuckGo"/></label>
+		<label id="bingbong">Bing<input type="radio" name="engine" value="bing"/></label>
+		<label id="jeeves">Ask<input type="radio" name="engine" value="ask"/></label>
 		<button>Go!</button>
 	</form>
 

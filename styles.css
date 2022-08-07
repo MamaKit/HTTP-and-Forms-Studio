@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    padding: 50px;
+    font-family: cursive;
+    font-size: 20;
+}
+
+#shite {
+    color: purple;
+}
+
+#duck {
+    color: yellow;
+}
+
+#jeeves {
+    color: red;
+}
+
+#googleplex {
+    color: white;
+}
+
+#bingbong {
+    color: gray;
+}
